@@ -1,5 +1,7 @@
 # Библиотека для проверки кода
 
+[![Build Status](https://travis-ci.org/codedokode/source-analyzer.svg?branch=master)](https://travis-ci.org/codedokode/source-analyzer)
+
 Анализирует исходный код (например, в задаче про список студентов) для поиска там ошибок.
 
 ## Установка
