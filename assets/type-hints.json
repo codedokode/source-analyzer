@@ -1,0 +1,5308 @@
+{
+    "apc_add": [
+        "array",
+        "mixed",
+        "int"
+    ],
+    "apc_bin_dump": [
+        "array",
+        "array"
+    ],
+    "apc_bin_dumpfile": [
+        "array",
+        "array",
+        "string",
+        "int",
+        "resource"
+    ],
+    "apc_define_constants": [
+        "string",
+        "array",
+        "bool"
+    ],
+    "apc_store": [
+        "array",
+        "mixed",
+        "int"
+    ],
+    "set_error_handler": [
+        "callable",
+        "int"
+    ],
+    "set_exception_handler": [
+        "callable"
+    ],
+    "ob_start": [
+        "callable",
+        "int",
+        "int"
+    ],
+    "getopt": [
+        "string",
+        "array"
+    ],
+    "runkit_sandbox_output_handler": [
+        "object",
+        "mixed"
+    ],
+    "uopz_compose": [
+        "string",
+        "array",
+        "array",
+        "array",
+        "int"
+    ],
+    "uopz_function": [
+        "string",
+        "Closure",
+        "int"
+    ],
+    "uopz_overload": [
+        "int",
+        "Callable"
+    ],
+    "wincache_refresh_if_changed": [
+        "array"
+    ],
+    "wincache_ucache_add": [
+        "array",
+        "mixed",
+        "int"
+    ],
+    "wincache_ucache_set": [
+        "array",
+        "mixed",
+        "int"
+    ],
+    "xhprof_enable": [
+        "int",
+        "array"
+    ],
+    "id3_set_tag": [
+        "string",
+        "array",
+        "int"
+    ],
+    "kadm5_create_principal": [
+        "resource",
+        "string",
+        "string",
+        "array"
+    ],
+    "kadm5_modify_principal": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "ncurses_getmouse": [
+        "array"
+    ],
+    "ncurses_ungetmouse": [
+        "array"
+    ],
+    "newt_button_bar": [
+        "array"
+    ],
+    "newt_entry_set_filter": [
+        "resource",
+        "callable",
+        "mixed"
+    ],
+    "newt_form_add_components": [
+        "resource",
+        "array"
+    ],
+    "newt_form_run": [
+        "resource",
+        "array"
+    ],
+    "newt_grid_get_size": [
+        "resouce",
+        "int",
+        "int"
+    ],
+    "newt_listitem": [
+        "int",
+        "int",
+        "string",
+        "bool",
+        "resouce",
+        "mixed",
+        "int"
+    ],
+    "newt_set_suspend_callback": [
+        "callable",
+        "mixed"
+    ],
+    "newt_textbox_reflowed": [
+        "int",
+        "int",
+        "char",
+        "int",
+        "int",
+        "int",
+        "int"
+    ],
+    "newt_win_entries": [
+        "string",
+        "string",
+        "int",
+        "int",
+        "int",
+        "int",
+        "array",
+        "string",
+        "string"
+    ],
+    "newt_win_menu": [
+        "string",
+        "string",
+        "int",
+        "int",
+        "int",
+        "int",
+        "array",
+        "int",
+        "string",
+        "string"
+    ],
+    "newt_win_messagev": [
+        "string",
+        "string",
+        "string",
+        "array"
+    ],
+    "readline_callback_handler_install": [
+        "string",
+        "callable"
+    ],
+    "readline_completion_function": [
+        "callable"
+    ],
+    "buildfromiterator": [
+        "Iterator",
+        "string"
+    ],
+    "extractto": [
+        "string",
+        "string|array",
+        "bool"
+    ],
+    "rar_close": [
+        "RarArchive"
+    ],
+    "rar_comment_get": [
+        "RarArchive"
+    ],
+    "rar_list": [
+        "RarArchive"
+    ],
+    "rar_entry_get": [
+        "RarArchive",
+        "string"
+    ],
+    "rar_broken_is": [
+        "RarArchive"
+    ],
+    "rar_solid_is": [
+        "RarArchive"
+    ],
+    "rar_open": [
+        "string",
+        "string",
+        "callable"
+    ],
+    "rar_allow_broken_set": [
+        "RarArchive",
+        "bool"
+    ],
+    "addglob": [
+        "string",
+        "int",
+        "array"
+    ],
+    "addpattern": [
+        "string",
+        "string",
+        "array"
+    ],
+    "openssl_csr_new": [
+        "array",
+        "resource",
+        "array",
+        "array"
+    ],
+    "openssl_csr_sign": [
+        "mixed",
+        "mixed",
+        "mixed",
+        "int",
+        "array",
+        "int"
+    ],
+    "openssl_pkcs12_export_to_file": [
+        "mixed",
+        "string",
+        "mixed",
+        "string",
+        "array"
+    ],
+    "openssl_pkcs12_export": [
+        "mixed",
+        "string",
+        "mixed",
+        "string",
+        "array"
+    ],
+    "openssl_pkcs12_read": [
+        "string",
+        "array",
+        "string"
+    ],
+    "openssl_pkcs7_encrypt": [
+        "string",
+        "string",
+        "mixed",
+        "array",
+        "int",
+        "int"
+    ],
+    "openssl_pkcs7_sign": [
+        "string",
+        "string",
+        "mixed",
+        "mixed",
+        "array",
+        "int",
+        "string"
+    ],
+    "openssl_pkcs7_verify": [
+        "string",
+        "int",
+        "string",
+        "array",
+        "string",
+        "string"
+    ],
+    "openssl_pkey_export_to_file": [
+        "mixed",
+        "string",
+        "string",
+        "array"
+    ],
+    "openssl_pkey_export": [
+        "mixed",
+        "string",
+        "string",
+        "array"
+    ],
+    "openssl_pkey_new": [
+        "array"
+    ],
+    "openssl_seal": [
+        "string",
+        "string",
+        "array",
+        "array",
+        "string"
+    ],
+    "openssl_x509_checkpurpose": [
+        "mixed",
+        "int",
+        "array",
+        "string"
+    ],
+    "password_hash": [
+        "string",
+        "integer",
+        "array"
+    ],
+    "password_needs_rehash": [
+        "string",
+        "integer",
+        "array"
+    ],
+    "dbx_close": [
+        "object"
+    ],
+    "dbx_compare": [
+        "array",
+        "array",
+        "string",
+        "int"
+    ],
+    "dbx_error": [
+        "object"
+    ],
+    "dbx_escape_string": [
+        "object",
+        "string"
+    ],
+    "dbx_fetch_row": [
+        "object"
+    ],
+    "dbx_query": [
+        "object",
+        "string",
+        "int"
+    ],
+    "dbx_sort": [
+        "object",
+        "string"
+    ],
+    "odbc_execute": [
+        "resource",
+        "array"
+    ],
+    "odbc_fetch_into": [
+        "resource",
+        "array",
+        "int"
+    ],
+    "cubrid_lob_close": [
+        "array"
+    ],
+    "cubrid_db_name": [
+        "array",
+        "int"
+    ],
+    "cubrid_fetch_object": [
+        "resource",
+        "string",
+        "array",
+        "int"
+    ],
+    "dbplus_add": [
+        "resource",
+        "array"
+    ],
+    "dbplus_curr": [
+        "resource",
+        "array"
+    ],
+    "dbplus_find": [
+        "resource",
+        "array",
+        "mixed"
+    ],
+    "dbplus_first": [
+        "resource",
+        "array"
+    ],
+    "dbplus_info": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "dbplus_last": [
+        "resource",
+        "array"
+    ],
+    "dbplus_next": [
+        "resource",
+        "array"
+    ],
+    "dbplus_prev": [
+        "resource",
+        "array"
+    ],
+    "dbplus_restorepos": [
+        "resource",
+        "array"
+    ],
+    "dbplus_tremove": [
+        "resource",
+        "array",
+        "array"
+    ],
+    "dbplus_update": [
+        "resource",
+        "array",
+        "array"
+    ],
+    "dbase_add_record": [
+        "int",
+        "array"
+    ],
+    "dbase_create": [
+        "string",
+        "array"
+    ],
+    "dbase_replace_record": [
+        "int",
+        "array",
+        "int"
+    ],
+    "ibase_set_event_handler": [
+        "resource",
+        "callable",
+        "string",
+        "string",
+        "string"
+    ],
+    "db2_connect": [
+        "string",
+        "string",
+        "string",
+        "array"
+    ],
+    "db2_exec": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "db2_execute": [
+        "resource",
+        "array"
+    ],
+    "db2_pconnect": [
+        "string",
+        "string",
+        "string",
+        "array"
+    ],
+    "db2_prepare": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "db2_set_option": [
+        "resource",
+        "array",
+        "int"
+    ],
+    "ingres_connect": [
+        "string",
+        "string",
+        "string",
+        "array"
+    ],
+    "ingres_execute": [
+        "resource",
+        "array",
+        "string"
+    ],
+    "ingres_pconnect": [
+        "string",
+        "string",
+        "string",
+        "array"
+    ],
+    "ingres_query": [
+        "resource",
+        "string",
+        "array",
+        "string"
+    ],
+    "ingres_set_environment": [
+        "resource",
+        "array"
+    ],
+    "ingres_unbuffered_query": [
+        "resource",
+        "string",
+        "array",
+        "string"
+    ],
+    "maxdb_fetch_object": [
+        "object"
+    ],
+    "maxdb_server_init": [
+        "array",
+        "array"
+    ],
+    "maxdb_stmt_bind_param": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "log_cmd_delete": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "log_cmd_insert": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "log_cmd_update": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "log_getmore": [
+        "array",
+        "array"
+    ],
+    "log_killcursor": [
+        "array",
+        "array"
+    ],
+    "log_reply": [
+        "array",
+        "array",
+        "array"
+    ],
+    "log_write_batch": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "mysql_fetch_object": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "set_local_infile_handler": [
+        "mysqli",
+        "callable"
+    ],
+    "mysqli_affected_rows": [
+        "mysqli"
+    ],
+    "mysqli_autocommit": [
+        "mysqli",
+        "bool"
+    ],
+    "mysqli_begin_transaction": [
+        "mysqli",
+        "int",
+        "string"
+    ],
+    "mysqli_change_user": [
+        "mysqli",
+        "string",
+        "string",
+        "string"
+    ],
+    "mysqli_character_set_name": [
+        "mysqli"
+    ],
+    "mysqli_get_client_info": [
+        "mysqli"
+    ],
+    "mysqli_get_client_version": [
+        "mysqli"
+    ],
+    "mysqli_close": [
+        "mysqli"
+    ],
+    "mysqli_commit": [
+        "mysqli",
+        "int",
+        "string"
+    ],
+    "mysqli_dump_debug_info": [
+        "mysqli"
+    ],
+    "mysqli_errno": [
+        "mysqli"
+    ],
+    "mysqli_error_list": [
+        "mysqli"
+    ],
+    "mysqli_error": [
+        "mysqli"
+    ],
+    "mysqli_field_count": [
+        "mysqli"
+    ],
+    "mysqli_get_charset": [
+        "mysqli"
+    ],
+    "mysqli_get_connection_stats": [
+        "mysqli"
+    ],
+    "mysqli_get_host_info": [
+        "mysqli"
+    ],
+    "mysqli_get_proto_info": [
+        "mysqli"
+    ],
+    "mysqli_get_server_info": [
+        "mysqli"
+    ],
+    "mysqli_get_server_version": [
+        "mysqli"
+    ],
+    "mysqli_get_warnings": [
+        "mysqli"
+    ],
+    "mysqli_info": [
+        "mysqli"
+    ],
+    "mysqli_insert_id": [
+        "mysqli"
+    ],
+    "mysqli_kill": [
+        "mysqli",
+        "int"
+    ],
+    "mysqli_more_results": [
+        "mysqli"
+    ],
+    "mysqli_multi_query": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_next_result": [
+        "mysqli"
+    ],
+    "mysqli_options": [
+        "mysqli",
+        "int",
+        "mixed"
+    ],
+    "mysqli_ping": [
+        "mysqli"
+    ],
+    "mysqli_poll": [
+        "array",
+        "array",
+        "array",
+        "int",
+        "int"
+    ],
+    "mysqli_prepare": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_query": [
+        "mysqli",
+        "string",
+        "int"
+    ],
+    "mysqli_real_connect": [
+        "mysqli",
+        "string",
+        "string",
+        "string",
+        "string",
+        "int",
+        "string",
+        "int"
+    ],
+    "mysqli_real_escape_string": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_real_query": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_reap_async_query": [
+        "mysql"
+    ],
+    "mysqli_release_savepoint": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_rollback": [
+        "mysqli",
+        "int",
+        "string"
+    ],
+    "mysqli_rpl_query_type": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_savepoint": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_select_db": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_send_query": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_set_charset": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_set_local_infile_default": [
+        "mysqli"
+    ],
+    "mysqli_set_local_infile_handler": [
+        "mysqli",
+        "callable"
+    ],
+    "mysqli_sqlstate": [
+        "mysqli"
+    ],
+    "mysqli_ssl_set": [
+        "mysqli",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "mysqli_stat": [
+        "mysqli"
+    ],
+    "mysqli_stmt_init": [
+        "mysqli"
+    ],
+    "mysqli_thread_id": [
+        "mysqli"
+    ],
+    "mysqli_use_result": [
+        "mysqli"
+    ],
+    "mysqli_warning_count": [
+        "mysqli"
+    ],
+    "get_warnings": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_affected_rows": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_attr_get": [
+        "mysqli_stmt",
+        "int"
+    ],
+    "mysqli_stmt_attr_set": [
+        "mysqli_stmt",
+        "int",
+        "int"
+    ],
+    "mysqli_stmt_bind_param": [
+        "mysqli_stmt",
+        "string",
+        "mixed",
+        "mixed"
+    ],
+    "mysqli_stmt_bind_result": [
+        "mysqli_stmt",
+        "mixed",
+        "mixed"
+    ],
+    "mysqli_stmt_close": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_data_seek": [
+        "mysqli_stmt",
+        "int"
+    ],
+    "mysqli_stmt_errno": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_error_list": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_error": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_execute": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_fetch": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_field_count": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_free_result": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_get_result": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_get_warnings": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_insert_id": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_more_results": [
+        "mysql_stmt"
+    ],
+    "mysqli_stmt_next_result": [
+        "mysql_stmt"
+    ],
+    "mysqli_stmt_num_rows": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_param_count": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_prepare": [
+        "mysqli_stmt",
+        "string"
+    ],
+    "mysqli_stmt_reset": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_result_metadata": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_send_long_data": [
+        "mysqli_stmt",
+        "int",
+        "string"
+    ],
+    "mysqli_stmt_sqlstate": [
+        "mysqli_stmt"
+    ],
+    "mysqli_stmt_store_result": [
+        "mysqli_stmt"
+    ],
+    "fetch_object": [
+        "string",
+        "array"
+    ],
+    "mysqli_field_tell": [
+        "mysqli_result"
+    ],
+    "mysqli_data_seek": [
+        "mysqli_result",
+        "int"
+    ],
+    "mysqli_fetch_all": [
+        "mysqli_result",
+        "int"
+    ],
+    "mysqli_fetch_array": [
+        "mysqli_result",
+        "int"
+    ],
+    "mysqli_fetch_assoc": [
+        "mysqli_result"
+    ],
+    "mysqli_fetch_field_direct": [
+        "mysqli_result",
+        "int"
+    ],
+    "mysqli_fetch_field": [
+        "mysqli_result"
+    ],
+    "mysqli_fetch_fields": [
+        "mysqli_result"
+    ],
+    "mysqli_fetch_object": [
+        "mysqli_result",
+        "string",
+        "array"
+    ],
+    "mysqli_fetch_row": [
+        "mysqli_result"
+    ],
+    "mysqli_num_fields": [
+        "mysqli_result"
+    ],
+    "mysqli_field_seek": [
+        "mysqli_result",
+        "int"
+    ],
+    "mysqli_free_result": [
+        "mysqli_result"
+    ],
+    "mysqli_fetch_lengths": [
+        "mysqli_result"
+    ],
+    "mysqli_num_rows": [
+        "mysqli_result"
+    ],
+    "embedded_server_start": [
+        "bool",
+        "array",
+        "array"
+    ],
+    "mysqli_embedded_server_start": [
+        "bool",
+        "array",
+        "array"
+    ],
+    "mysqli_disable_reads_from_master": [
+        "mysqli"
+    ],
+    "mysqli_disable_rpl_parse": [
+        "mysqli"
+    ],
+    "mysqli_enable_reads_from_master": [
+        "mysqli"
+    ],
+    "mysqli_enable_rpl_parse": [
+        "mysqli"
+    ],
+    "mysqli_master_query": [
+        "mysqli",
+        "string"
+    ],
+    "mysqli_rpl_parse_enabled": [
+        "mysqli"
+    ],
+    "mysqli_rpl_probe": [
+        "mysqli"
+    ],
+    "mysqli_slave_query": [
+        "mysqli",
+        "string"
+    ],
+    "mysqlnd_uh_convert_to_mysqlnd": [
+        "mysqli"
+    ],
+    "mysqlnd_uh_set_connection_proxy": [
+        "MysqlndUhConnection",
+        "mysqli"
+    ],
+    "mysqlnd_uh_set_statement_proxy": [
+        "MysqlndUhStatement"
+    ],
+    "mysqlnd_memcache_set": [
+        "mixed",
+        "Memcached",
+        "string",
+        "callback"
+    ],
+    "oci_bind_array_by_name": [
+        "resource",
+        "string",
+        "array",
+        "int",
+        "int",
+        "int"
+    ],
+    "oci_fetch_all": [
+        "resource",
+        "array",
+        "int",
+        "int",
+        "int"
+    ],
+    "oci_lob_copy": [
+        "OCI-Lob",
+        "OCI-Lob",
+        "int"
+    ],
+    "oci_lob_is_equal": [
+        "OCI-Lob",
+        "OCI-Lob"
+    ],
+    "assign": [
+        "OCI-Collection"
+    ],
+    "append": [
+        "OCI-Lob"
+    ],
+    "px_create_fp": [
+        "resource",
+        "resource",
+        "array"
+    ],
+    "px_insert_record": [
+        "resource",
+        "array"
+    ],
+    "px_put_record": [
+        "resource",
+        "array",
+        "int"
+    ],
+    "px_update_record": [
+        "resource",
+        "array",
+        "int"
+    ],
+    "pg_convert": [
+        "resource",
+        "string",
+        "array",
+        "int"
+    ],
+    "pg_copy_from": [
+        "resource",
+        "string",
+        "array",
+        "string",
+        "string"
+    ],
+    "pg_delete": [
+        "resource",
+        "string",
+        "array",
+        "int"
+    ],
+    "pg_execute": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "pg_fetch_object": [
+        "resource",
+        "int",
+        "string",
+        "array"
+    ],
+    "pg_insert": [
+        "resource",
+        "string",
+        "array",
+        "int"
+    ],
+    "pg_query_params": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "pg_select": [
+        "resource",
+        "string",
+        "array",
+        "int"
+    ],
+    "pg_send_execute": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "pg_send_query_params": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "pg_update": [
+        "resource",
+        "string",
+        "array",
+        "array",
+        "int"
+    ],
+    "sqlite_create_aggregate": [
+        "resource",
+        "string",
+        "callable",
+        "callable",
+        "int"
+    ],
+    "sqlite_create_function": [
+        "resource",
+        "string",
+        "callable",
+        "int"
+    ],
+    "sqlite_fetch_object": [
+        "resource",
+        "string",
+        "array",
+        "bool"
+    ],
+    "sqlsrv_connect": [
+        "string",
+        "array"
+    ],
+    "sqlsrv_fetch_object": [
+        "resource",
+        "string",
+        "array",
+        "int",
+        "int"
+    ],
+    "sqlsrv_prepare": [
+        "resource",
+        "string",
+        "array",
+        "array"
+    ],
+    "sqlsrv_query": [
+        "resource",
+        "string",
+        "array",
+        "array"
+    ],
+    "sybase_set_message_handler": [
+        "callable",
+        "resource"
+    ],
+    "date_add": [
+        "DateTime",
+        "DateInterval"
+    ],
+    "date_create": [
+        "string",
+        "DateTimeZone"
+    ],
+    "date_create_from_format": [
+        "string",
+        "string",
+        "DateTimeZone"
+    ],
+    "date_modify": [
+        "DateTime",
+        "string"
+    ],
+    "date_date_set": [
+        "DateTime",
+        "int",
+        "int",
+        "int"
+    ],
+    "date_isodate_set": [
+        "DateTime",
+        "int",
+        "int",
+        "int"
+    ],
+    "date_time_set": [
+        "DateTime",
+        "int",
+        "int",
+        "int"
+    ],
+    "date_timestamp_set": [
+        "DateTime",
+        "int"
+    ],
+    "date_timezone_set": [
+        "DateTime",
+        "DateTimeZone"
+    ],
+    "date_sub": [
+        "DateTime",
+        "DateInterval"
+    ],
+    "date_create_immutable": [
+        "string",
+        "DateTimeZone"
+    ],
+    "date_create_immutable_from_format": [
+        "string",
+        "string",
+        "DateTimeZone"
+    ],
+    "date_diff": [
+        "DateTimeInterface",
+        "DateTimeInterface",
+        "bool"
+    ],
+    "date_format": [
+        "DateTimeInterface",
+        "string"
+    ],
+    "date_offset_get": [
+        "DateTimeInterface"
+    ],
+    "date_timestamp_get": [
+        "DateTimeInterface"
+    ],
+    "date_timezone_get": [
+        "DateTimeInterface"
+    ],
+    "timezone_location_get": [
+        "DateTimeZone"
+    ],
+    "timezone_name_get": [
+        "DateTimeZone"
+    ],
+    "timezone_offset_get": [
+        "DateTimeZone",
+        "DateTime"
+    ],
+    "timezone_transitions_get": [
+        "DateTimeZone",
+        "int",
+        "int"
+    ],
+    "dio_tcsetattr": [
+        "resource",
+        "array"
+    ],
+    "fputcsv": [
+        "resource",
+        "array",
+        "string",
+        "string",
+        "string"
+    ],
+    "enchant_dict_quick_check": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "iconv_mime_encode": [
+        "string",
+        "string",
+        "array"
+    ],
+    "collator_asort": [
+        "Collator",
+        "array",
+        "int"
+    ],
+    "collator_compare": [
+        "Collator",
+        "string",
+        "string"
+    ],
+    "collator_get_attribute": [
+        "Collator",
+        "int"
+    ],
+    "collator_get_error_code": [
+        "Collator"
+    ],
+    "collator_get_error_message": [
+        "Collator"
+    ],
+    "collator_get_locale": [
+        "Collator",
+        "int"
+    ],
+    "collator_get_sort_key": [
+        "Collator",
+        "string"
+    ],
+    "collator_get_strength": [
+        "Collator"
+    ],
+    "collator_set_attribute": [
+        "Collator",
+        "int",
+        "int"
+    ],
+    "collator_set_strength": [
+        "Collator",
+        "int"
+    ],
+    "collator_sort_with_sort_keys": [
+        "Collator",
+        "array"
+    ],
+    "collator_sort": [
+        "Collator",
+        "array",
+        "int"
+    ],
+    "numfmt_format_currency": [
+        "NumberFormatter",
+        "float",
+        "string"
+    ],
+    "numfmt_format": [
+        "NumberFormatter",
+        "number",
+        "int"
+    ],
+    "numfmt_get_attribute": [
+        "NumberFormatter",
+        "int"
+    ],
+    "numfmt_get_error_code": [
+        "NumberFormatter"
+    ],
+    "numfmt_get_error_message": [
+        "NumberFormatter"
+    ],
+    "numfmt_get_locale": [
+        "NumberFormatter",
+        "int"
+    ],
+    "numfmt_get_pattern": [
+        "NumberFormatter"
+    ],
+    "numfmt_get_symbol": [
+        "NumberFormatter",
+        "int"
+    ],
+    "numfmt_get_text_attribute": [
+        "NumberFormatter",
+        "int"
+    ],
+    "numfmt_parse_currency": [
+        "NumberFormatter",
+        "string",
+        "string",
+        "int"
+    ],
+    "numfmt_parse": [
+        "NumberFormatter",
+        "string",
+        "int",
+        "int"
+    ],
+    "numfmt_set_attribute": [
+        "NumberFormatter",
+        "int",
+        "int"
+    ],
+    "numfmt_set_pattern": [
+        "NumberFormatter",
+        "string"
+    ],
+    "numfmt_set_symbol": [
+        "NumberFormatter",
+        "int",
+        "string"
+    ],
+    "numfmt_set_text_attribute": [
+        "NumberFormatter",
+        "int",
+        "string"
+    ],
+    "locale_compose": [
+        "array"
+    ],
+    "locale_lookup": [
+        "array",
+        "string",
+        "bool",
+        "string"
+    ],
+    "msgfmt_format_message": [
+        "string",
+        "string",
+        "array"
+    ],
+    "msgfmt_format": [
+        "MessageFormatter",
+        "array"
+    ],
+    "msgfmt_get_error_code": [
+        "MessageFormatter"
+    ],
+    "msgfmt_get_error_message": [
+        "MessageFormatter"
+    ],
+    "msgfmt_get_locale": [
+        "NumberFormatter"
+    ],
+    "msgfmt_get_pattern": [
+        "MessageFormatter"
+    ],
+    "msgfmt_parse": [
+        "MessageFormatter",
+        "string"
+    ],
+    "msgfmt_set_pattern": [
+        "MessageFormatter",
+        "string"
+    ],
+    "intlcal_add": [
+        "IntlCalendar",
+        "int",
+        "int"
+    ],
+    "intlcal_after": [
+        "IntlCalendar",
+        "IntlCalendar"
+    ],
+    "intlcal_before": [
+        "IntlCalendar",
+        "IntlCalendar"
+    ],
+    "intlcal_clear": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_equals": [
+        "IntlCalendar",
+        "IntlCalendar"
+    ],
+    "intlcal_field_difference": [
+        "IntlCalendar",
+        "float",
+        "int"
+    ],
+    "intlcal_get": [
+        "IntlCalendar&gt;",
+        "int"
+    ],
+    "intlcal_get_actual_maximum": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_actual_minimum": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_day_of_week_type": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_first_day_of_week": [
+        "IntlCalendar"
+    ],
+    "intlcal_get_greatest_minimum": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_least_maximum": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_locale": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_maximum": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_minimal_days_in_first_week": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_minimum": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_get_repeated_wall_time_option": [
+        "IntlCalendar"
+    ],
+    "intlcal_get_skipped_wall_time_option": [
+        "IntlCalendar"
+    ],
+    "intlcal_get_time": [
+        "IntlCalendar"
+    ],
+    "intlcal_get_time_zone": [
+        "IntlCalendar"
+    ],
+    "intlcal_get_type": [
+        "IntlCalendar"
+    ],
+    "intlcal_get_weekend_transition": [
+        "IntlCalendar",
+        "string"
+    ],
+    "intlcal_in_daylight_time": [
+        "IntlCalendar"
+    ],
+    "intlcal_is_equivalent_to": [
+        "IntlCalendar",
+        "IntlCalendar"
+    ],
+    "intlcal_is_lenient": [
+        "IntlCalendar"
+    ],
+    "intlcal_is_set": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_is_weekend": [
+        "IntlCalendar",
+        "float"
+    ],
+    "intlcal_roll": [
+        "IntlCalendar",
+        "int",
+        "mixed"
+    ],
+    "intlcal_set": [
+        "IntlCalendar",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+    ],
+    "intlcal_set_first_day_of_week": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_set_lenient": [
+        "IntlCalendar",
+        "string"
+    ],
+    "intlcal_set_repeated_wall_time_option": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_set_skipped_wall_time_option": [
+        "IntlCalendar",
+        "int"
+    ],
+    "intlcal_set_time": [
+        "IntlCalendar",
+        "float"
+    ],
+    "intlcal_set_time_zone": [
+        "IntlCalendar",
+        "mixed"
+    ],
+    "intlcal_to_date_time": [
+        "IntlCalendar"
+    ],
+    "intlcal_get_error_code": [
+        "IntlCalendar"
+    ],
+    "intlcal_get_error_message": [
+        "IntlCalendar"
+    ],
+    "datefmt_format": [
+        "IntlDateFormatter",
+        "mixed"
+    ],
+    "datefmt_get_calendar": [
+        "IntlDateFormatter"
+    ],
+    "datefmt_get_datetype": [
+        "IntlDateFormatter"
+    ],
+    "datefmt_get_error_code": [
+        "IntlDateFormatter"
+    ],
+    "datefmt_get_error_message": [
+        "IntlDateFormatter"
+    ],
+    "datefmt_get_locale": [
+        "IntlDateFormatter",
+        "int"
+    ],
+    "datefmt_get_pattern": [
+        "IntlDateFormatter"
+    ],
+    "datefmt_get_timetype": [
+        "IntlDateFormatter"
+    ],
+    "datefmt_get_timezone_id": [
+        "IntlDateFormatter"
+    ],
+    "datefmt_is_lenient": [
+        "IntlDateFormatter"
+    ],
+    "datefmt_localtime": [
+        "IntlDateFormatter",
+        "string",
+        "int"
+    ],
+    "datefmt_parse": [
+        "IntlDateFormatter",
+        "string",
+        "int"
+    ],
+    "datefmt_set_calendar": [
+        "IntlDateFormatter",
+        "mixed"
+    ],
+    "datefmt_set_lenient": [
+        "IntlDateFormatter",
+        "bool"
+    ],
+    "datefmt_set_pattern": [
+        "IntlDateFormatter",
+        "string"
+    ],
+    "datefmt_set_timezone_id": [
+        "IntlDateFormatter",
+        "string"
+    ],
+    "resourcebundle_count": [
+        "ResourceBundle"
+    ],
+    "resourcebundle_get_error_code": [
+        "ResourceBundle"
+    ],
+    "resourcebundle_get_error_message": [
+        "ResourceBundle"
+    ],
+    "resourcebundle_get": [
+        "ResourceBundle",
+        "string|int"
+    ],
+    "idn_to_ascii": [
+        "string",
+        "int",
+        "int",
+        "array"
+    ],
+    "idn_to_utf8": [
+        "string",
+        "int",
+        "int",
+        "array"
+    ],
+    "mb_decode_numericentity": [
+        "string",
+        "array",
+        "string"
+    ],
+    "mb_encode_numericentity": [
+        "string",
+        "array",
+        "string",
+        "bool"
+    ],
+    "mb_ereg_replace_callback": [
+        "string",
+        "callable",
+        "string",
+        "string"
+    ],
+    "mb_ereg": [
+        "string",
+        "string",
+        "array"
+    ],
+    "mb_eregi": [
+        "string",
+        "string",
+        "array"
+    ],
+    "mb_parse_str": [
+        "string",
+        "array"
+    ],
+    "cairo_create": [
+        "CairoSurface"
+    ],
+    "cairo_font_face_get_type": [
+        "CairoFontFace"
+    ],
+    "cairo_font_face_status": [
+        "CairoFontFace"
+    ],
+    "cairo_font_options_equal": [
+        "CairoFontOptions",
+        "CairoFontOptions"
+    ],
+    "cairo_font_options_get_antialias": [
+        "CairoFontOptions"
+    ],
+    "cairo_font_options_get_hint_metrics": [
+        "CairoFontOptions"
+    ],
+    "cairo_font_options_get_hint_style": [
+        "CairoFontOptions"
+    ],
+    "cairo_font_options_get_subpixel_order": [
+        "CairoFontOptions"
+    ],
+    "cairo_font_options_hash": [
+        "CairoFontOptions"
+    ],
+    "cairo_font_options_merge": [
+        "CairoFontOptions",
+        "CairoFontOptions"
+    ],
+    "cairo_font_options_set_antialias": [
+        "CairoFontOptions",
+        "int"
+    ],
+    "cairo_font_options_set_hint_metrics": [
+        "CairoFontOptions",
+        "int"
+    ],
+    "cairo_font_options_set_hint_style": [
+        "CairoFontOptions",
+        "int"
+    ],
+    "cairo_font_options_set_subpixel_order": [
+        "CairoFontOptions",
+        "int"
+    ],
+    "cairo_font_options_status": [
+        "CairoFontOptions"
+    ],
+    "cairo_image_surface_get_data": [
+        "CairoImageSurface"
+    ],
+    "cairo_image_surface_get_format": [
+        "CairoImageSurface"
+    ],
+    "cairo_image_surface_get_height": [
+        "CairoImageSurface"
+    ],
+    "cairo_image_surface_get_stride": [
+        "CairoImageSurface"
+    ],
+    "cairo_image_surface_get_width": [
+        "CairoImageSurface"
+    ],
+    "cairo_matrix_invert": [
+        "CairoMatrix"
+    ],
+    "cairo_matrix_multiply": [
+        "CairoMatrix",
+        "CairoMatrix"
+    ],
+    "cairo_matrix_rotate": [
+        "CairoMatrix",
+        "float"
+    ],
+    "cairo_matrix_transform_distance": [
+        "CairoMatrix",
+        "float",
+        "float"
+    ],
+    "cairo_matrix_transform_point": [
+        "CairoMatrix",
+        "float",
+        "float"
+    ],
+    "cairo_matrix_translate": [
+        "CairoMatrix",
+        "float",
+        "float"
+    ],
+    "cairo_pattern_add_color_stop_rgb": [
+        "CairoGradientPattern",
+        "float",
+        "float",
+        "float",
+        "float"
+    ],
+    "cairo_pattern_add_color_stop_rgba": [
+        "CairoGradientPattern",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+    ],
+    "cairo_pattern_create_for_surface": [
+        "CairoSurface"
+    ],
+    "cairo_pattern_get_color_stop_count": [
+        "CairoGradientPattern"
+    ],
+    "cairo_pattern_get_color_stop_rgba": [
+        "CairoGradientPattern",
+        "int"
+    ],
+    "cairo_pattern_get_filter": [
+        "CairoSurfacePattern"
+    ],
+    "cairo_pattern_get_linear_points": [
+        "CairoLinearGradient"
+    ],
+    "cairo_pattern_get_matrix": [
+        "CairoPattern"
+    ],
+    "cairo_pattern_get_radial_circles": [
+        "CairoRadialGradient"
+    ],
+    "cairo_pattern_get_rgba": [
+        "CairoSolidPattern"
+    ],
+    "cairo_pattern_get_surface": [
+        "CairoSurfacePattern"
+    ],
+    "cairo_pattern_get_type": [
+        "CairoPattern"
+    ],
+    "cairo_pattern_set_filter": [
+        "CairoSurfacePattern",
+        "int"
+    ],
+    "cairo_pattern_set_matrix": [
+        "CairoPattern",
+        "CairoMatrix"
+    ],
+    "cairo_pattern_status": [
+        "CairoPattern"
+    ],
+    "cairo_pdf_surface_set_size": [
+        "CairoPdfSurface",
+        "float",
+        "float"
+    ],
+    "cairo_ps_surface_dsc_begin_page_setup": [
+        "CairoPsSurface"
+    ],
+    "cairo_ps_surface_dsc_begin_setup": [
+        "CairoPsSurface"
+    ],
+    "cairo_ps_surface_dsc_comment": [
+        "CairoPsSurface",
+        "string"
+    ],
+    "cairo_ps_surface_get_eps": [
+        "CairoPsSurface"
+    ],
+    "cairo_ps_surface_restrict_to_level": [
+        "CairoPsSurface",
+        "int"
+    ],
+    "cairo_ps_surface_set_eps": [
+        "CairoPsSurface",
+        "bool"
+    ],
+    "cairo_ps_surface_set_size": [
+        "CairoPsSurface",
+        "float",
+        "float"
+    ],
+    "cairo_scaled_font_create": [
+        "CairoFontFace",
+        "CairoMatrix",
+        "CairoMatrix",
+        "CairoFontOptions"
+    ],
+    "cairo_scaled_font_extents": [
+        "CairoScaledFont"
+    ],
+    "cairo_scaled_font_get_ctm": [
+        "CairoScaledFont"
+    ],
+    "cairo_scaled_font_get_font_face": [
+        "CairoScaledFont"
+    ],
+    "cairo_scaled_font_get_font_matrix": [
+        "CairoScaledFont"
+    ],
+    "cairo_scaled_font_get_font_options": [
+        "CairoScaledFont"
+    ],
+    "cairo_scaled_font_get_scale_matrix": [
+        "CairoScaledFont"
+    ],
+    "cairo_scaled_font_get_type": [
+        "CairoScaledFont"
+    ],
+    "cairo_scaled_font_glyph_extents": [
+        "CairoScaledFont",
+        "array"
+    ],
+    "cairo_scaled_font_status": [
+        "CairoScaledFont"
+    ],
+    "cairo_scaled_font_text_extents": [
+        "CairoScaledFont",
+        "string"
+    ],
+    "cairo_surface_copy_page": [
+        "CairoSurface"
+    ],
+    "cairo_surface_create_similar": [
+        "CairoSurface",
+        "int",
+        "float",
+        "float"
+    ],
+    "cairo_surface_finish": [
+        "CairoSurface"
+    ],
+    "cairo_surface_flush": [
+        "CairoSurface"
+    ],
+    "cairo_surface_get_content": [
+        "CairoSurface"
+    ],
+    "cairo_surface_get_device_offset": [
+        "CairoSurface"
+    ],
+    "cairo_surface_get_font_options": [
+        "CairoSurface"
+    ],
+    "cairo_surface_get_type": [
+        "CairoSurface"
+    ],
+    "cairo_surface_mark_dirty_rectangle": [
+        "CairoSurface",
+        "float",
+        "float",
+        "float",
+        "float"
+    ],
+    "cairo_surface_mark_dirty": [
+        "CairoSurface"
+    ],
+    "cairo_surface_set_device_offset": [
+        "CairoSurface",
+        "float",
+        "float"
+    ],
+    "cairo_surface_set_fallback_resolution": [
+        "CairoSurface",
+        "float",
+        "float"
+    ],
+    "cairo_surface_show_page": [
+        "CairoSurface"
+    ],
+    "cairo_surface_status": [
+        "CairoSurface"
+    ],
+    "cairo_surface_write_to_png": [
+        "CairoSurface",
+        "resource"
+    ],
+    "cairo_svg_surface_restrict_to_version": [
+        "CairoSvgSurface",
+        "int"
+    ],
+    "cairo_append_path": [
+        "CairoContext",
+        "CairoPath"
+    ],
+    "cairo_arc": [
+        "CairoContext",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+    ],
+    "cairo_arc_negative": [
+        "CairoContext",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+    ],
+    "cairo_clip": [
+        "CairoContext"
+    ],
+    "cairo_clip_extents": [
+        "CairoContext"
+    ],
+    "cairo_clip_preserve": [
+        "CairoContext"
+    ],
+    "cairo_clip_rectangle_list": [
+        "CairoContext"
+    ],
+    "cairo_close_path": [
+        "CairoContext"
+    ],
+    "cairo_copy_page": [
+        "CairoContext"
+    ],
+    "cairo_copy_path": [
+        "CairoContext"
+    ],
+    "cairo_copy_path_flat": [
+        "CairoContext"
+    ],
+    "cairo_curve_to": [
+        "CairoContext",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+    ],
+    "cairo_device_to_user": [
+        "CairoContext",
+        "float",
+        "float"
+    ],
+    "cairo_device_to_user_distance": [
+        "CairoContext",
+        "float",
+        "float"
+    ],
+    "cairo_fill": [
+        "CairoContext"
+    ],
+    "cairo_fill_extents": [
+        "CairoContext"
+    ],
+    "cairo_fill_preserve": [
+        "CairoContext"
+    ],
+    "cairo_font_extents": [
+        "CairoContext"
+    ],
+    "cairo_get_antialias": [
+        "CairoContext"
+    ],
+    "cairo_get_current_point": [
+        "CairoContext"
+    ],
+    "cairo_get_dash": [
+        "CairoContext"
+    ],
+    "cairo_get_dash_count": [
+        "CairoContext"
+    ],
+    "cairo_get_fill_rule": [
+        "CairoContext"
+    ],
+    "cairo_get_font_face": [
+        "CairoContext"
+    ],
+    "cairo_get_font_matrix": [
+        "CairoContext"
+    ],
+    "cairo_get_font_options": [
+        "CairoContext"
+    ],
+    "cairo_get_group_target": [
+        "CairoContext"
+    ],
+    "cairo_get_line_cap": [
+        "CairoContext"
+    ],
+    "cairo_get_line_join": [
+        "CairoContext"
+    ],
+    "cairo_get_line_width": [
+        "CairoContext"
+    ],
+    "cairo_get_matrix": [
+        "CairoContext"
+    ],
+    "cairo_get_miter_limit": [
+        "CairoContext"
+    ],
+    "cairo_get_operator": [
+        "CairoContext"
+    ],
+    "cairo_get_scaled_font": [
+        "CairoContext"
+    ],
+    "cairo_get_source": [
+        "CairoContext"
+    ],
+    "cairo_get_target": [
+        "CairoContext"
+    ],
+    "cairo_get_tolerance": [
+        "CairoContext"
+    ],
+    "cairo_glyph_path": [
+        "CairoContext",
+        "array"
+    ],
+    "cairo_has_current_point": [
+        "CairoContext"
+    ],
+    "cairo_identity_matrix": [
+        "CairoContext"
+    ],
+    "cairo_in_fill": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_in_stroke": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_line_to": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_mask": [
+        "CairoContext",
+        "CairoPattern"
+    ],
+    "cairo_mask_surface": [
+        "CairoContext",
+        "CairoSurface",
+        "string",
+        "string"
+    ],
+    "cairo_move_to": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_new_path": [
+        "CairoContext"
+    ],
+    "cairo_new_sub_path": [
+        "CairoContext"
+    ],
+    "cairo_paint": [
+        "CairoContext"
+    ],
+    "cairo_paint_with_alpha": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_path_extents": [
+        "CairoContext"
+    ],
+    "cairo_pop_group": [
+        "CairoContext"
+    ],
+    "cairo_pop_group_to_source": [
+        "CairoContext"
+    ],
+    "cairo_push_group": [
+        "CairoContext"
+    ],
+    "cairo_push_group_with_content": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_rectangle": [
+        "CairoContext",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "cairo_rel_curve_to": [
+        "CairoContext",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "cairo_rel_line_to": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_rel_move_to": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_reset_clip": [
+        "CairoContext"
+    ],
+    "cairo_restore": [
+        "CairoContext"
+    ],
+    "cairo_rotate": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_save": [
+        "CairoContext"
+    ],
+    "cairo_scale": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_select_font_face": [
+        "CairoContext",
+        "string",
+        "string",
+        "string"
+    ],
+    "cairo_set_antialias": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_set_dash": [
+        "CairoContext",
+        "array",
+        "string"
+    ],
+    "cairo_set_fill_rule": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_set_font_face": [
+        "CairoContext",
+        "CairoFontFace"
+    ],
+    "cairo_set_font_matrix": [
+        "CairoContext",
+        "CairoMatrix"
+    ],
+    "cairo_set_font_options": [
+        "CairoContext",
+        "CairoFontOptions"
+    ],
+    "cairo_set_font_size": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_set_line_cap": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_set_line_join": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_set_line_width": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_set_matrix": [
+        "CairoContext",
+        "CairoMatrix"
+    ],
+    "cairo_set_miter_limit": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_set_operator": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_set_scaled_font": [
+        "CairoContext",
+        "CairoScaledFont"
+    ],
+    "cairo_set_source": [
+        "CairoContext",
+        "CairoPattern"
+    ],
+    "cairo_set_source_surface": [
+        "CairoContext",
+        "CairoSurface",
+        "string",
+        "string"
+    ],
+    "cairo_set_tolerance": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_show_page": [
+        "CairoContext"
+    ],
+    "cairo_show_text": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_status": [
+        "CairoContext"
+    ],
+    "cairo_stroke": [
+        "CairoContext"
+    ],
+    "cairo_stroke_extents": [
+        "CairoContext"
+    ],
+    "cairo_stroke_preserve": [
+        "CairoContext"
+    ],
+    "cairo_text_extents": [
+        "CairoContext"
+    ],
+    "cairo_text_path": [
+        "CairoContext",
+        "string"
+    ],
+    "cairo_transform": [
+        "CairoContext",
+        "CairoMatrix"
+    ],
+    "cairo_translate": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_user_to_device": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_user_to_device_distance": [
+        "CairoContext",
+        "string",
+        "string"
+    ],
+    "cairo_matrix_scale": [
+        "CairoContext",
+        "float",
+        "float"
+    ],
+    "getimagesize": [
+        "string",
+        "array"
+    ],
+    "getimagesizefromstring": [
+        "string",
+        "array"
+    ],
+    "imageaffine": [
+        "resource",
+        "array",
+        "array"
+    ],
+    "imageaffinematrixconcat": [
+        "array",
+        "array"
+    ],
+    "imageconvolution": [
+        "resource",
+        "array",
+        "float",
+        "float"
+    ],
+    "imagecrop": [
+        "resource",
+        "array"
+    ],
+    "imagefilledpolygon": [
+        "resource",
+        "array",
+        "int",
+        "int"
+    ],
+    "imageftbbox": [
+        "float",
+        "float",
+        "string",
+        "string",
+        "array"
+    ],
+    "imagefttext": [
+        "resource",
+        "float",
+        "float",
+        "int",
+        "int",
+        "int",
+        "string",
+        "string",
+        "array"
+    ],
+    "imagepolygon": [
+        "resource",
+        "array",
+        "int",
+        "int"
+    ],
+    "imagesetstyle": [
+        "resource",
+        "array"
+    ],
+    "addimage": [
+        "Imagick"
+    ],
+    "affinetransformimage": [
+        "ImagickDraw"
+    ],
+    "annotateimage": [
+        "ImagickDraw",
+        "float",
+        "float",
+        "float",
+        "string"
+    ],
+    "clutimage": [
+        "Imagick",
+        "float"
+    ],
+    "compareimagechannels": [
+        "Imagick",
+        "int",
+        "int"
+    ],
+    "compareimages": [
+        "Imagick",
+        "int"
+    ],
+    "compositeimage": [
+        "Imagick",
+        "int",
+        "int",
+        "int",
+        "int"
+    ],
+    "convolveimage": [
+        "array",
+        "int"
+    ],
+    "distortimage": [
+        "int",
+        "array",
+        "bool"
+    ],
+    "drawimage": [
+        "object",
+        "float",
+        "float",
+        "float",
+        "float"
+    ],
+    "getimagechanneldistortion": [
+        "Imagick",
+        "int",
+        "int"
+    ],
+    "getimagechanneldistortions": [
+        "Imagick",
+        "int",
+        "int"
+    ],
+    "getimagedistortion": [
+        "MagickWand",
+        "int"
+    ],
+    "mapimage": [
+        "Imagick",
+        "bool"
+    ],
+    "montageimage": [
+        "ImagickDraw",
+        "string",
+        "string",
+        "int",
+        "string"
+    ],
+    "polaroidimage": [
+        "ImagickDraw",
+        "float"
+    ],
+    "queryfontmetrics": [
+        "ImagickDraw",
+        "string",
+        "bool"
+    ],
+    "recolorimage": [
+        "array"
+    ],
+    "setimage": [
+        "Imagick"
+    ],
+    "setimageclipmask": [
+        "Imagick"
+    ],
+    "setimagecolormapcolor": [
+        "int",
+        "ImagickPixel"
+    ],
+    "setsamplingfactors": [
+        "array"
+    ],
+    "steganoimage": [
+        "Imagick",
+        "int"
+    ],
+    "stereoimage": [
+        "Imagick"
+    ],
+    "textureimage": [
+        "Imagick"
+    ],
+    "affine": [
+        "array"
+    ],
+    "bezier": [
+        "array"
+    ],
+    "composite": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "Imagick"
+    ],
+    "polygon": [
+        "array"
+    ],
+    "polyline": [
+        "array"
+    ],
+    "setfillcolor": [
+        "ImagickPixel"
+    ],
+    "setstrokecolor": [
+        "ImagickPixel"
+    ],
+    "setstrokedasharray": [
+        "array"
+    ],
+    "settextundercolor": [
+        "ImagickPixel"
+    ],
+    "ispixelsimilar": [
+        "ImagickPixel",
+        "float"
+    ],
+    "issimilar": [
+        "ImagickPixel",
+        "float"
+    ],
+    "__construct": [
+        "ZMQSocket",
+        "ZMQSocket",
+        "ZMQSocket"
+    ],
+    "newpixeliterator": [
+        "Imagick"
+    ],
+    "newpixelregioniterator": [
+        "Imagick",
+        "int",
+        "int",
+        "int",
+        "int"
+    ],
+    "cyrus_bind": [
+        "resource",
+        "array"
+    ],
+    "imap_mail_compose": [
+        "array",
+        "array"
+    ],
+    "imap_open": [
+        "string",
+        "string",
+        "string",
+        "int",
+        "int",
+        "array"
+    ],
+    "mailparse_msg_extract_part_file": [
+        "resource",
+        "mixed",
+        "callable"
+    ],
+    "mailparse_msg_extract_part": [
+        "resource",
+        "string",
+        "callable"
+    ],
+    "mailparse_msg_extract_whole_part_file": [
+        "resource",
+        "string",
+        "callable"
+    ],
+    "gmp_abs": [
+        "GMP"
+    ],
+    "gmp_add": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_and": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_clrbit": [
+        "GMP",
+        "int"
+    ],
+    "gmp_cmp": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_com": [
+        "GMP"
+    ],
+    "gmp_div_q": [
+        "GMP",
+        "GMP",
+        "int"
+    ],
+    "gmp_div_qr": [
+        "GMP",
+        "GMP",
+        "int"
+    ],
+    "gmp_div_r": [
+        "GMP",
+        "GMP",
+        "int"
+    ],
+    "gmp_divexact": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_export": [
+        "GMP",
+        "integer",
+        "integer"
+    ],
+    "gmp_gcd": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_gcdext": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_hamdist": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_intval": [
+        "GMP"
+    ],
+    "gmp_invert": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_jacobi": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_legendre": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_mod": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_mul": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_neg": [
+        "GMP"
+    ],
+    "gmp_or": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_perfect_square": [
+        "GMP"
+    ],
+    "gmp_popcount": [
+        "GMP"
+    ],
+    "gmp_pow": [
+        "GMP",
+        "int"
+    ],
+    "gmp_powm": [
+        "GMP",
+        "GMP",
+        "GMP"
+    ],
+    "gmp_prob_prime": [
+        "GMP",
+        "int"
+    ],
+    "gmp_random_range": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_root": [
+        "GMP",
+        "int"
+    ],
+    "gmp_rootrem": [
+        "GMP",
+        "int"
+    ],
+    "gmp_scan0": [
+        "GMP",
+        "int"
+    ],
+    "gmp_scan1": [
+        "GMP",
+        "int"
+    ],
+    "gmp_setbit": [
+        "GMP",
+        "int",
+        "bool"
+    ],
+    "gmp_sign": [
+        "GMP"
+    ],
+    "gmp_sqrt": [
+        "GMP"
+    ],
+    "gmp_sqrtrem": [
+        "GMP"
+    ],
+    "gmp_strval": [
+        "GMP",
+        "int"
+    ],
+    "gmp_sub": [
+        "GMP",
+        "GMP"
+    ],
+    "gmp_testbit": [
+        "GMP",
+        "int"
+    ],
+    "gmp_xor": [
+        "GMP",
+        "GMP"
+    ],
+    "max": [
+        "array"
+    ],
+    "min": [
+        "array"
+    ],
+    "pow": [
+        "number",
+        "number"
+    ],
+    "stats_absolute_deviation": [
+        "array"
+    ],
+    "stats_covariance": [
+        "array",
+        "array"
+    ],
+    "stats_harmonic_mean": [
+        "array"
+    ],
+    "stats_kurtosis": [
+        "array"
+    ],
+    "stats_skew": [
+        "array"
+    ],
+    "stats_standard_deviation": [
+        "array",
+        "bool"
+    ],
+    "stats_stat_correlation": [
+        "array",
+        "array"
+    ],
+    "stats_stat_independent_t": [
+        "array",
+        "array"
+    ],
+    "stats_stat_innerproduct": [
+        "array",
+        "array"
+    ],
+    "stats_stat_paired_t": [
+        "array",
+        "array"
+    ],
+    "stats_stat_powersum": [
+        "array",
+        "float"
+    ],
+    "stats_variance": [
+        "array",
+        "bool"
+    ],
+    "trader_acos": [
+        "array"
+    ],
+    "trader_ad": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_add": [
+        "array",
+        "array"
+    ],
+    "trader_adosc": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "integer",
+        "integer"
+    ],
+    "trader_adx": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_adxr": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_apo": [
+        "array",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_aroon": [
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_aroonosc": [
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_asin": [
+        "array"
+    ],
+    "trader_atan": [
+        "array"
+    ],
+    "trader_atr": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_avgprice": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_bbands": [
+        "array",
+        "integer",
+        "float",
+        "float",
+        "integer"
+    ],
+    "trader_beta": [
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_bop": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cci": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_cdl2crows": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdl3blackcrows": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdl3inside": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdl3linestrike": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdl3outside": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdl3starsinsouth": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdl3whitesoldiers": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlabandonedbaby": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "float"
+    ],
+    "trader_cdladvanceblock": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlbelthold": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlbreakaway": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlclosingmarubozu": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlconcealbabyswall": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlcounterattack": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdldarkcloudcover": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "float"
+    ],
+    "trader_cdldoji": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdldojistar": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdldragonflydoji": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlengulfing": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdleveningdojistar": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "float"
+    ],
+    "trader_cdleveningstar": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "float"
+    ],
+    "trader_cdlgapsidesidewhite": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlgravestonedoji": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlhammer": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlhangingman": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlharami": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlharamicross": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlhighwave": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlhikkake": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlhikkakemod": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlhomingpigeon": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlidentical3crows": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlinneck": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlinvertedhammer": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlkicking": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlkickingbylength": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlladderbottom": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdllongleggeddoji": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdllongline": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlmarubozu": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlmatchinglow": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlmathold": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "float"
+    ],
+    "trader_cdlmorningdojistar": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "float"
+    ],
+    "trader_cdlmorningstar": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "float"
+    ],
+    "trader_cdlonneck": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlpiercing": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlrickshawman": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlrisefall3methods": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlseparatinglines": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlshootingstar": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlshortline": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlspinningtop": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlstalledpattern": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlsticksandwich": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdltakuri": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdltasukigap": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlthrusting": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdltristar": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlunique3river": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlupsidegap2crows": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_cdlxsidegap3methods": [
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_ceil": [
+        "array"
+    ],
+    "trader_cmo": [
+        "array",
+        "integer"
+    ],
+    "trader_correl": [
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_cos": [
+        "array"
+    ],
+    "trader_cosh": [
+        "array"
+    ],
+    "trader_dema": [
+        "array",
+        "integer"
+    ],
+    "trader_div": [
+        "array",
+        "array"
+    ],
+    "trader_dx": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_ema": [
+        "array",
+        "integer"
+    ],
+    "trader_exp": [
+        "array"
+    ],
+    "trader_floor": [
+        "array"
+    ],
+    "trader_ht_dcperiod": [
+        "array"
+    ],
+    "trader_ht_dcphase": [
+        "array"
+    ],
+    "trader_ht_phasor": [
+        "array"
+    ],
+    "trader_ht_sine": [
+        "array"
+    ],
+    "trader_ht_trendline": [
+        "array"
+    ],
+    "trader_ht_trendmode": [
+        "array"
+    ],
+    "trader_kama": [
+        "array",
+        "integer"
+    ],
+    "trader_linearreg_angle": [
+        "array",
+        "integer"
+    ],
+    "trader_linearreg_intercept": [
+        "array",
+        "integer"
+    ],
+    "trader_linearreg_slope": [
+        "array",
+        "integer"
+    ],
+    "trader_linearreg": [
+        "array",
+        "integer"
+    ],
+    "trader_ln": [
+        "array"
+    ],
+    "trader_log10": [
+        "array"
+    ],
+    "trader_ma": [
+        "array",
+        "integer",
+        "integer"
+    ],
+    "trader_macd": [
+        "array",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_macdext": [
+        "array",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_macdfix": [
+        "array",
+        "integer"
+    ],
+    "trader_mama": [
+        "array",
+        "float",
+        "float"
+    ],
+    "trader_mavp": [
+        "array",
+        "array",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_max": [
+        "array",
+        "integer"
+    ],
+    "trader_maxindex": [
+        "array",
+        "integer"
+    ],
+    "trader_medprice": [
+        "array",
+        "array"
+    ],
+    "trader_mfi": [
+        "array",
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_midpoint": [
+        "array",
+        "integer"
+    ],
+    "trader_midprice": [
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_min": [
+        "array",
+        "integer"
+    ],
+    "trader_minindex": [
+        "array",
+        "integer"
+    ],
+    "trader_minmax": [
+        "array",
+        "integer"
+    ],
+    "trader_minmaxindex": [
+        "array",
+        "integer"
+    ],
+    "trader_minus_di": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_minus_dm": [
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_mom": [
+        "array",
+        "integer"
+    ],
+    "trader_mult": [
+        "array",
+        "array"
+    ],
+    "trader_natr": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_obv": [
+        "array",
+        "array"
+    ],
+    "trader_plus_di": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_plus_dm": [
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_ppo": [
+        "array",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_roc": [
+        "array",
+        "integer"
+    ],
+    "trader_rocp": [
+        "array",
+        "integer"
+    ],
+    "trader_rocr100": [
+        "array",
+        "integer"
+    ],
+    "trader_rocr": [
+        "array",
+        "integer"
+    ],
+    "trader_rsi": [
+        "array",
+        "integer"
+    ],
+    "trader_sar": [
+        "array",
+        "array",
+        "float",
+        "float"
+    ],
+    "trader_sarext": [
+        "array",
+        "array",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+    ],
+    "trader_sin": [
+        "array"
+    ],
+    "trader_sinh": [
+        "array"
+    ],
+    "trader_sma": [
+        "array",
+        "integer"
+    ],
+    "trader_sqrt": [
+        "array"
+    ],
+    "trader_stddev": [
+        "array",
+        "integer",
+        "float"
+    ],
+    "trader_stoch": [
+        "array",
+        "array",
+        "array",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_stochf": [
+        "array",
+        "array",
+        "array",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_stochrsi": [
+        "array",
+        "integer",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_sub": [
+        "array",
+        "array"
+    ],
+    "trader_sum": [
+        "array",
+        "integer"
+    ],
+    "trader_t3": [
+        "array",
+        "integer",
+        "float"
+    ],
+    "trader_tan": [
+        "array"
+    ],
+    "trader_tanh": [
+        "array"
+    ],
+    "trader_tema": [
+        "array",
+        "integer"
+    ],
+    "trader_trange": [
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_trima": [
+        "array",
+        "integer"
+    ],
+    "trader_trix": [
+        "array",
+        "integer"
+    ],
+    "trader_tsf": [
+        "array",
+        "integer"
+    ],
+    "trader_typprice": [
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_ultosc": [
+        "array",
+        "array",
+        "array",
+        "integer",
+        "integer",
+        "integer"
+    ],
+    "trader_var": [
+        "array",
+        "integer",
+        "float"
+    ],
+    "trader_wclprice": [
+        "array",
+        "array",
+        "array"
+    ],
+    "trader_willr": [
+        "array",
+        "array",
+        "array",
+        "integer"
+    ],
+    "trader_wma": [
+        "array",
+        "integer"
+    ],
+    "fdf_enum_values": [
+        "resource",
+        "callable",
+        "mixed"
+    ],
+    "createoutline": [
+        "string",
+        "object",
+        "object"
+    ],
+    "insertpage": [
+        "object"
+    ],
+    "setopenaction": [
+        "object"
+    ],
+    "createlinkannotation": [
+        "array",
+        "object"
+    ],
+    "createtextannotation": [
+        "array",
+        "string",
+        "object"
+    ],
+    "createurlannotation": [
+        "array",
+        "string"
+    ],
+    "setdash": [
+        "array",
+        "int"
+    ],
+    "setfontandsize": [
+        "object",
+        "float"
+    ],
+    "setmaskimage": [
+        "object"
+    ],
+    "setdestination": [
+        "object"
+    ],
+    "addaction": [
+        "SWFAction",
+        "int"
+    ],
+    "addasound": [
+        "SWFSound",
+        "int"
+    ],
+    "addshape": [
+        "SWFShape",
+        "int"
+    ],
+    "setaction": [
+        "SWFAction"
+    ],
+    "setdown": [
+        "SWFShape"
+    ],
+    "sethit": [
+        "SWFShape"
+    ],
+    "setover": [
+        "SWFShape"
+    ],
+    "setup": [
+        "SWFShape"
+    ],
+    "add": [
+        "object"
+    ],
+    "addexport": [
+        "SWFCharacter",
+        "string"
+    ],
+    "addfont": [
+        "SWFFont"
+    ],
+    "remove": [
+        "object"
+    ],
+    "startsound": [
+        "SWFSound"
+    ],
+    "stopsound": [
+        "SWFSound"
+    ],
+    "drawglyph": [
+        "SWFFont",
+        "string",
+        "int"
+    ],
+    "setleftfill": [
+        "SWFGradient"
+    ],
+    "setline": [
+        "SWFShape"
+    ],
+    "setrightfill": [
+        "SWFGradient"
+    ],
+    "addfill": [
+        "SWFGradient",
+        "int"
+    ],
+    "setfont": [
+        "SWFFont"
+    ],
+    "eio_busy": [
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_chmod": [
+        "string",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_chown": [
+        "string",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_close": [
+        "mixed",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_custom": [
+        "callable",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_dup2": [
+        "mixed",
+        "mixed",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_fallocate": [
+        "mixed",
+        "int",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_fchmod": [
+        "mixed",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_fchown": [
+        "mixed",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_fdatasync": [
+        "mixed",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_fstat": [
+        "mixed",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_fstatvfs": [
+        "mixed",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_fsync": [
+        "mixed",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_ftruncate": [
+        "mixed",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_futime": [
+        "mixed",
+        "float",
+        "float",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_grp": [
+        "callable",
+        "string"
+    ],
+    "eio_link": [
+        "string",
+        "string",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_lstat": [
+        "string",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_mkdir": [
+        "string",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_mknod": [
+        "string",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_nop": [
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_open": [
+        "string",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_read": [
+        "mixed",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_readahead": [
+        "mixed",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_readdir": [
+        "string",
+        "int",
+        "int",
+        "callable",
+        "string"
+    ],
+    "eio_readlink": [
+        "string",
+        "int",
+        "callable",
+        "string"
+    ],
+    "eio_realpath": [
+        "string",
+        "int",
+        "callable",
+        "string"
+    ],
+    "eio_rename": [
+        "string",
+        "string",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_rmdir": [
+        "string",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_seek": [
+        "mixed",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_sendfile": [
+        "mixed",
+        "mixed",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "string"
+    ],
+    "eio_stat": [
+        "string",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_statvfs": [
+        "string",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_symlink": [
+        "string",
+        "string",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_sync_file_range": [
+        "mixed",
+        "int",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_sync": [
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_syncfs": [
+        "mixed",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_truncate": [
+        "string",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_unlink": [
+        "string",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_utime": [
+        "string",
+        "float",
+        "float",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "eio_write": [
+        "mixed",
+        "string",
+        "int",
+        "int",
+        "int",
+        "callable",
+        "mixed"
+    ],
+    "callback": [
+        "EventListener",
+        "mixed"
+    ],
+    "expect_expectl": [
+        "resource",
+        "array",
+        "array"
+    ],
+    "event_timer_set": [
+        "resource",
+        "callable",
+        "mixed"
+    ],
+    "pcntl_exec": [
+        "string",
+        "array",
+        "array"
+    ],
+    "pcntl_signal": [
+        "int",
+        "callable|int",
+        "bool"
+    ],
+    "pcntl_sigprocmask": [
+        "int",
+        "array",
+        "array"
+    ],
+    "pcntl_sigtimedwait": [
+        "array",
+        "array",
+        "int",
+        "int"
+    ],
+    "pcntl_sigwaitinfo": [
+        "array",
+        "array"
+    ],
+    "exec": [
+        "string",
+        "array",
+        "int"
+    ],
+    "proc_open": [
+        "string",
+        "array",
+        "array",
+        "string",
+        "array",
+        "array"
+    ],
+    "msg_set_queue": [
+        "resource",
+        "array"
+    ],
+    "fann_create_shortcut_array": [
+        "int",
+        "array"
+    ],
+    "fann_create_sparse_array": [
+        "float",
+        "int",
+        "array"
+    ],
+    "fann_create_standard_array": [
+        "int",
+        "array"
+    ],
+    "fann_create_train_from_callback": [
+        "int",
+        "int",
+        "int",
+        "collable"
+    ],
+    "fann_descale_input": [
+        "resource",
+        "array"
+    ],
+    "fann_descale_output": [
+        "resource",
+        "array"
+    ],
+    "fann_run": [
+        "resource",
+        "array"
+    ],
+    "fann_scale_input": [
+        "resource",
+        "array"
+    ],
+    "fann_scale_output": [
+        "resource",
+        "array"
+    ],
+    "fann_set_callback": [
+        "resource",
+        "collable"
+    ],
+    "fann_set_cascade_activation_functions": [
+        "resource",
+        "array"
+    ],
+    "fann_set_cascade_activation_steepnesses": [
+        "resource",
+        "array"
+    ],
+    "fann_set_weight_array": [
+        "resource",
+        "array"
+    ],
+    "fann_test": [
+        "resource",
+        "array",
+        "array"
+    ],
+    "fann_train": [
+        "resource",
+        "array",
+        "array"
+    ],
+    "judy_type": [
+        "Judy"
+    ],
+    "parsekit_compile_file": [
+        "string",
+        "array",
+        "int"
+    ],
+    "parsekit_compile_string": [
+        "string",
+        "array",
+        "int"
+    ],
+    "iterator_apply": [
+        "Traversable",
+        "callable",
+        "array"
+    ],
+    "iterator_count": [
+        "Traversable"
+    ],
+    "iterator_to_array": [
+        "Traversable",
+        "bool"
+    ],
+    "spl_autoload_register": [
+        "callable",
+        "bool",
+        "bool"
+    ],
+    "spl_object_hash": [
+        "object"
+    ],
+    "stream_context_create": [
+        "array",
+        "array"
+    ],
+    "stream_context_get_default": [
+        "array"
+    ],
+    "stream_context_set_default": [
+        "array"
+    ],
+    "stream_context_set_option": [
+        "resource",
+        "array"
+    ],
+    "stream_context_set_params": [
+        "resource",
+        "array"
+    ],
+    "stream_select": [
+        "array",
+        "array",
+        "array",
+        "int",
+        "int"
+    ],
+    "tidy_get_body": [
+        "tidy"
+    ],
+    "tidy_clean_repair": [
+        "tidy"
+    ],
+    "tidy_diagnose": [
+        "tidy"
+    ],
+    "tidy_get_error_buffer": [
+        "tidy"
+    ],
+    "tidy_get_config": [
+        "tidy"
+    ],
+    "tidy_get_html_ver": [
+        "tidy"
+    ],
+    "tidy_getopt": [
+        "tidy",
+        "string"
+    ],
+    "tidy_get_opt_doc": [
+        "tidy",
+        "string"
+    ],
+    "tidy_get_status": [
+        "tidy"
+    ],
+    "tidy_get_head": [
+        "tidy"
+    ],
+    "tidy_get_html": [
+        "tidy"
+    ],
+    "tidy_is_xhtml": [
+        "tidy"
+    ],
+    "tidy_is_xml": [
+        "tidy"
+    ],
+    "tidy_get_root": [
+        "tidy"
+    ],
+    "tidy_access_count": [
+        "tidy"
+    ],
+    "tidy_config_count": [
+        "tidy"
+    ],
+    "tidy_error_count": [
+        "tidy"
+    ],
+    "tidy_get_output": [
+        "tidy"
+    ],
+    "tidy_warning_count": [
+        "tidy"
+    ],
+    "yaml_emit_file": [
+        "string",
+        "mixed",
+        "int",
+        "int",
+        "array"
+    ],
+    "yaml_emit": [
+        "mixed",
+        "int",
+        "int",
+        "array"
+    ],
+    "yaml_parse_file": [
+        "string",
+        "int",
+        "int",
+        "array"
+    ],
+    "yaml_parse_url": [
+        "string",
+        "int",
+        "int",
+        "array"
+    ],
+    "yaml_parse": [
+        "string",
+        "int",
+        "int",
+        "array"
+    ],
+    "chdb_create": [
+        "string",
+        "array"
+    ],
+    "curl_setopt_array": [
+        "resource",
+        "array"
+    ],
+    "gupnp_service_proxy_send_action": [
+        "resource",
+        "string",
+        "array",
+        "array"
+    ],
+    "detach": [
+        "HttpRequest"
+    ],
+    "http_build_cookie": [
+        "array"
+    ],
+    "http_negotiate_charset": [
+        "array",
+        "array"
+    ],
+    "http_negotiate_content_type": [
+        "array",
+        "array"
+    ],
+    "http_negotiate_language": [
+        "array",
+        "array"
+    ],
+    "http_parse_cookie": [
+        "string",
+        "int",
+        "array"
+    ],
+    "http_get": [
+        "string",
+        "array",
+        "array"
+    ],
+    "http_head": [
+        "string",
+        "array",
+        "array"
+    ],
+    "http_post_data": [
+        "string",
+        "string",
+        "array",
+        "array"
+    ],
+    "http_post_fields": [
+        "string",
+        "array",
+        "array",
+        "array",
+        "array"
+    ],
+    "http_put_data": [
+        "string",
+        "string",
+        "array",
+        "array"
+    ],
+    "http_put_file": [
+        "string",
+        "string",
+        "array",
+        "array"
+    ],
+    "http_put_stream": [
+        "string",
+        "resource",
+        "array",
+        "array"
+    ],
+    "http_request_body_encode": [
+        "array",
+        "array"
+    ],
+    "http_request": [
+        "int",
+        "string",
+        "string",
+        "array",
+        "array"
+    ],
+    "http_redirect": [
+        "string",
+        "array",
+        "bool",
+        "int"
+    ],
+    "http_build_str": [
+        "array",
+        "string",
+        "string"
+    ],
+    "http_build_url": [
+        "mixed",
+        "mixed",
+        "int",
+        "array"
+    ],
+    "hwapi_object_new": [
+        "array"
+    ],
+    "ldap_add": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "ldap_list": [
+        "resource",
+        "string",
+        "string",
+        "array",
+        "int",
+        "int",
+        "int",
+        "int"
+    ],
+    "ldap_mod_add": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "ldap_mod_del": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "ldap_mod_replace": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "ldap_modify_batch": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "ldap_modify": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "ldap_parse_reference": [
+        "resource",
+        "resource",
+        "array"
+    ],
+    "ldap_parse_result": [
+        "resource",
+        "resource",
+        "int",
+        "string",
+        "string",
+        "array"
+    ],
+    "ldap_read": [
+        "resource",
+        "string",
+        "string",
+        "array",
+        "int",
+        "int",
+        "int",
+        "int"
+    ],
+    "ldap_search": [
+        "resource",
+        "string",
+        "string",
+        "array",
+        "int",
+        "int",
+        "int",
+        "int"
+    ],
+    "ldap_set_rebind_proc": [
+        "resource",
+        "callable"
+    ],
+    "addserver": [
+        "string",
+        "int",
+        "bool",
+        "int",
+        "int",
+        "int",
+        "bool",
+        "callable",
+        "int"
+    ],
+    "setserverparams": [
+        "string",
+        "int",
+        "int",
+        "int",
+        "bool",
+        "callable"
+    ],
+    "mqseries_begin": [
+        "resource",
+        "array",
+        "resource",
+        "resource"
+    ],
+    "mqseries_connx": [
+        "string",
+        "array",
+        "resource",
+        "resource",
+        "resource"
+    ],
+    "mqseries_get": [
+        "resource",
+        "resource",
+        "array",
+        "array",
+        "int",
+        "string",
+        "int",
+        "resource",
+        "resource"
+    ],
+    "mqseries_inq": [
+        "resource",
+        "resource",
+        "int",
+        "array",
+        "int",
+        "resource",
+        "int",
+        "resource",
+        "resource",
+        "resource"
+    ],
+    "mqseries_open": [
+        "resource",
+        "array",
+        "int",
+        "resource",
+        "resource",
+        "resource"
+    ],
+    "mqseries_put": [
+        "resource",
+        "resource",
+        "array",
+        "array",
+        "string",
+        "resource",
+        "resource"
+    ],
+    "mqseries_set": [
+        "resource",
+        "resource",
+        "int",
+        "array",
+        "int",
+        "array",
+        "int",
+        "array",
+        "resource",
+        "resource"
+    ],
+    "dns_get_record": [
+        "string",
+        "int",
+        "array",
+        "array",
+        "bool"
+    ],
+    "getmxrr": [
+        "string",
+        "array",
+        "array"
+    ],
+    "header_register_callback": [
+        "callable"
+    ],
+    "rrd_create": [
+        "string",
+        "array"
+    ],
+    "rrd_fetch": [
+        "string",
+        "array"
+    ],
+    "rrd_graph": [
+        "string",
+        "array"
+    ],
+    "rrd_restore": [
+        "string",
+        "string",
+        "array"
+    ],
+    "rrd_tune": [
+        "string",
+        "array"
+    ],
+    "rrd_update": [
+        "string",
+        "array"
+    ],
+    "rrd_xport": [
+        "array"
+    ],
+    "socket_create_pair": [
+        "int",
+        "int",
+        "int",
+        "array"
+    ],
+    "socket_select": [
+        "array",
+        "array",
+        "array",
+        "int",
+        "int"
+    ],
+    "socket_sendmsg": [
+        "resource",
+        "array",
+        "int"
+    ],
+    "ssh2_connect": [
+        "string",
+        "int",
+        "array",
+        "array"
+    ],
+    "ssh2_exec": [
+        "resource",
+        "string",
+        "string",
+        "array",
+        "int",
+        "int",
+        "int"
+    ],
+    "ssh2_publickey_add": [
+        "resource",
+        "string",
+        "string",
+        "bool",
+        "array"
+    ],
+    "ssh2_shell": [
+        "resource",
+        "string",
+        "array",
+        "int",
+        "int",
+        "int"
+    ],
+    "stomp_abort": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "stomp_ack": [
+        "resource",
+        "mixed",
+        "array"
+    ],
+    "stomp_begin": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "stomp_commit": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "stomp_connect": [
+        "string",
+        "string",
+        "string",
+        "array"
+    ],
+    "stomp_send": [
+        "resource",
+        "string",
+        "mixed",
+        "array"
+    ],
+    "stomp_subscribe": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "stomp_unsubscribe": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "svn_commit": [
+        "string",
+        "array",
+        "bool"
+    ],
+    "svn_repos_create": [
+        "string",
+        "array",
+        "array"
+    ],
+    "yaz_ccl_conf": [
+        "resource",
+        "array"
+    ],
+    "yaz_ccl_parse": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "yaz_es": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "yaz_hits": [
+        "resource",
+        "array"
+    ],
+    "yaz_itemorder": [
+        "resource",
+        "array"
+    ],
+    "yaz_scan_result": [
+        "resource",
+        "array"
+    ],
+    "yaz_scan": [
+        "resource",
+        "string",
+        "string",
+        "array"
+    ],
+    "yaz_set_option": [
+        "resource",
+        "array"
+    ],
+    "yaz_wait": [
+        "array"
+    ],
+    "udm_alloc_agent_array": [
+        "array"
+    ],
+    "msession_set_array": [
+        "string",
+        "array"
+    ],
+    "session_set_save_handler": [
+        "SessionHandlerInterface",
+        "bool"
+    ],
+    "bbcode_add_element": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "bbcode_create": [
+        "array"
+    ],
+    "preg_grep": [
+        "string",
+        "array",
+        "int"
+    ],
+    "preg_match_all": [
+        "string",
+        "string",
+        "array",
+        "int",
+        "int"
+    ],
+    "preg_match": [
+        "string",
+        "string",
+        "array",
+        "int",
+        "int"
+    ],
+    "preg_replace_callback": [
+        "mixed",
+        "callable",
+        "mixed",
+        "int",
+        "int"
+    ],
+    "ereg": [
+        "string",
+        "string",
+        "array"
+    ],
+    "eregi": [
+        "string",
+        "string",
+        "array"
+    ],
+    "implode": [
+        "array"
+    ],
+    "parse_str": [
+        "string",
+        "array"
+    ],
+    "setlocale": [
+        "int",
+        "array"
+    ],
+    "strtr": [
+        "string",
+        "array"
+    ],
+    "vfprintf": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "vprintf": [
+        "string",
+        "array"
+    ],
+    "vsprintf": [
+        "string",
+        "array"
+    ],
+    "array_change_key_case": [
+        "array",
+        "int"
+    ],
+    "array_chunk": [
+        "array",
+        "int",
+        "bool"
+    ],
+    "array_column": [
+        "array",
+        "mixed",
+        "mixed"
+    ],
+    "array_combine": [
+        "array",
+        "array"
+    ],
+    "array_count_values": [
+        "array"
+    ],
+    "array_diff_assoc": [
+        "array",
+        "array",
+        "array"
+    ],
+    "array_diff_key": [
+        "array",
+        "array",
+        "array"
+    ],
+    "array_diff_uassoc": [
+        "array",
+        "array",
+        "array",
+        "callable"
+    ],
+    "array_diff_ukey": [
+        "array",
+        "array",
+        "array",
+        "callable"
+    ],
+    "array_diff": [
+        "array",
+        "array",
+        "array"
+    ],
+    "array_fill_keys": [
+        "array",
+        "mixed"
+    ],
+    "array_filter": [
+        "array",
+        "callable",
+        "int"
+    ],
+    "array_flip": [
+        "array"
+    ],
+    "array_intersect_assoc": [
+        "array",
+        "array",
+        "array"
+    ],
+    "array_intersect_key": [
+        "array",
+        "array",
+        "array"
+    ],
+    "array_intersect_uassoc": [
+        "array",
+        "array",
+        "array",
+        "callable"
+    ],
+    "array_intersect_ukey": [
+        "array",
+        "array",
+        "array",
+        "callable"
+    ],
+    "array_intersect": [
+        "array",
+        "array",
+        "array"
+    ],
+    "array_key_exists": [
+        "mixed",
+        "array"
+    ],
+    "array_keys": [
+        "array",
+        "mixed",
+        "bool"
+    ],
+    "array_map": [
+        "callable",
+        "array",
+        "array"
+    ],
+    "array_merge_recursive": [
+        "array",
+        "array"
+    ],
+    "array_merge": [
+        "array",
+        "array"
+    ],
+    "array_multisort": [
+        "array",
+        "mixed",
+        "mixed",
+        "mixed"
+    ],
+    "array_pad": [
+        "array",
+        "int",
+        "mixed"
+    ],
+    "array_pop": [
+        "array"
+    ],
+    "array_product": [
+        "array"
+    ],
+    "array_push": [
+        "array",
+        "mixed",
+        "mixed"
+    ],
+    "array_rand": [
+        "array",
+        "int"
+    ],
+    "array_reduce": [
+        "array",
+        "callable",
+        "mixed"
+    ],
+    "array_replace_recursive": [
+        "array",
+        "array",
+        "array"
+    ],
+    "array_replace": [
+        "array",
+        "array",
+        "array"
+    ],
+    "array_reverse": [
+        "array",
+        "bool"
+    ],
+    "array_search": [
+        "mixed",
+        "array",
+        "bool"
+    ],
+    "array_shift": [
+        "array"
+    ],
+    "array_slice": [
+        "array",
+        "int",
+        "int",
+        "bool"
+    ],
+    "array_splice": [
+        "array",
+        "int",
+        "int",
+        "mixed"
+    ],
+    "array_sum": [
+        "array"
+    ],
+    "array_udiff_assoc": [
+        "array",
+        "array",
+        "array",
+        "callable"
+    ],
+    "array_udiff_uassoc": [
+        "array",
+        "array",
+        "array",
+        "callable",
+        "callable"
+    ],
+    "array_udiff": [
+        "array",
+        "array",
+        "array",
+        "callable"
+    ],
+    "array_uintersect_assoc": [
+        "array",
+        "array",
+        "array",
+        "callable"
+    ],
+    "array_uintersect_uassoc": [
+        "array",
+        "array",
+        "array",
+        "callable",
+        "callable"
+    ],
+    "array_uintersect": [
+        "array",
+        "array",
+        "array",
+        "callable"
+    ],
+    "array_unique": [
+        "array",
+        "int"
+    ],
+    "array_unshift": [
+        "array",
+        "mixed",
+        "mixed"
+    ],
+    "array_values": [
+        "array"
+    ],
+    "array_walk_recursive": [
+        "array",
+        "callable",
+        "mixed"
+    ],
+    "array_walk": [
+        "array",
+        "callable",
+        "mixed"
+    ],
+    "arsort": [
+        "array",
+        "int"
+    ],
+    "asort": [
+        "array",
+        "int"
+    ],
+    "current": [
+        "array"
+    ],
+    "each": [
+        "array"
+    ],
+    "end": [
+        "array"
+    ],
+    "extract": [
+        "array",
+        "int",
+        "string"
+    ],
+    "in_array": [
+        "mixed",
+        "array",
+        "bool"
+    ],
+    "key": [
+        "array"
+    ],
+    "krsort": [
+        "array",
+        "int"
+    ],
+    "ksort": [
+        "array",
+        "int"
+    ],
+    "natcasesort": [
+        "array"
+    ],
+    "natsort": [
+        "array"
+    ],
+    "next": [
+        "array"
+    ],
+    "prev": [
+        "array"
+    ],
+    "range": [
+        "mixed",
+        "mixed",
+        "number"
+    ],
+    "reset": [
+        "array"
+    ],
+    "rsort": [
+        "array",
+        "int"
+    ],
+    "shuffle": [
+        "array"
+    ],
+    "sort": [
+        "array",
+        "int"
+    ],
+    "uasort": [
+        "array",
+        "callable"
+    ],
+    "uksort": [
+        "array",
+        "callable"
+    ],
+    "usort": [
+        "array",
+        "callable"
+    ],
+    "call_user_method_array": [
+        "string",
+        "object",
+        "array"
+    ],
+    "call_user_method": [
+        "string",
+        "object",
+        "mixed",
+        "mixed"
+    ],
+    "get_class": [
+        "object"
+    ],
+    "get_object_vars": [
+        "object"
+    ],
+    "is_a": [
+        "object",
+        "string",
+        "bool"
+    ],
+    "filter_var_array": [
+        "array",
+        "mixed",
+        "bool"
+    ],
+    "call_user_func_array": [
+        "callable",
+        "array"
+    ],
+    "call_user_func": [
+        "callable",
+        "mixed",
+        "mixed"
+    ],
+    "forward_static_call_array": [
+        "callable",
+        "array"
+    ],
+    "forward_static_call": [
+        "callable",
+        "mixed",
+        "mixed"
+    ],
+    "register_shutdown_function": [
+        "callable",
+        "mixed",
+        "mixed"
+    ],
+    "register_tick_function": [
+        "callable",
+        "mixed",
+        "mixed"
+    ],
+    "is_callable": [
+        "callable",
+        "bool",
+        "string"
+    ],
+    "oauth_get_sbs": [
+        "string",
+        "string",
+        "array"
+    ],
+    "xmlrpc_encode_request": [
+        "string",
+        "mixed",
+        "array"
+    ],
+    "xmlrpc_is_fault": [
+        "array"
+    ],
+    "xmlrpc_server_add_introspection_data": [
+        "resource",
+        "array"
+    ],
+    "xmlrpc_server_call_method": [
+        "resource",
+        "string",
+        "mixed",
+        "array"
+    ],
+    "com_event_sink": [
+        "variant",
+        "object",
+        "mixed"
+    ],
+    "com_print_typeinfo": [
+        "object",
+        "string",
+        "bool"
+    ],
+    "variant_cast": [
+        "variant",
+        "int"
+    ],
+    "variant_date_to_timestamp": [
+        "variant"
+    ],
+    "variant_get_type": [
+        "variant"
+    ],
+    "variant_set_type": [
+        "variant",
+        "int"
+    ],
+    "variant_set": [
+        "variant",
+        "mixed"
+    ],
+    "win32_create_service": [
+        "array",
+        "string"
+    ],
+    "dom_import_simplexml": [
+        "SimpleXMLElement"
+    ],
+    "libxml_set_external_entity_loader": [
+        "callable"
+    ],
+    "simplexml_import_dom": [
+        "DOMNode",
+        "string"
+    ],
+    "xml_parse_into_struct": [
+        "resource",
+        "string",
+        "array",
+        "array"
+    ],
+    "xml_set_character_data_handler": [
+        "resource",
+        "callable"
+    ],
+    "xml_set_default_handler": [
+        "resource",
+        "callable"
+    ],
+    "xml_set_element_handler": [
+        "resource",
+        "callable",
+        "callable"
+    ],
+    "start_element_handler": [
+        "resource",
+        "string",
+        "array"
+    ],
+    "xml_set_end_namespace_decl_handler": [
+        "resource",
+        "callable"
+    ],
+    "xml_set_external_entity_ref_handler": [
+        "resource",
+        "callable"
+    ],
+    "xml_set_notation_decl_handler": [
+        "resource",
+        "callable"
+    ],
+    "xml_set_object": [
+        "resource",
+        "object"
+    ],
+    "xml_set_processing_instruction_handler": [
+        "resource",
+        "callable"
+    ],
+    "xml_set_start_namespace_decl_handler": [
+        "resource",
+        "callable"
+    ],
+    "xml_set_unparsed_entity_decl_handler": [
+        "resource",
+        "callable"
+    ],
+    "transformtodoc": [
+        "DOMNode"
+    ],
+    "transformtouri": [
+        "DOMDocument",
+        "string"
+    ],
+    "transformtoxml": [
+        "object"
+    ],
+    "count": [
+        "array"
+    ]
+}

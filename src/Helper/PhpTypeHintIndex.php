@@ -25,6 +25,23 @@ class PhpTypeHintIndex
         }
     }
 
+    public function createEmptyIndex()
+    {
+        $this->index = [];
+    }
+    
+    /**
+     * Usage: 
+     *
+     * $indexer->createEmptyIndex();
+     * $indexer->addFunctionToIndex('array_column', ['array', 'mixed', 'mixed']);
+     * 
+     */
+    public function addFunctionToIndex($functionName, array $argumentTypes)
+    {
+        $this->index[$functionName] = $argumentTypes;
+    }
+
     /**
      * Parses PHP doc file for list of standart functions with type hints
      */

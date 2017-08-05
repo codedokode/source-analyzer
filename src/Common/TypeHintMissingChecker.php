@@ -17,6 +17,12 @@ class TypeHintMissingChecker extends Checker
         $this->typeHintIndexer = new PhpTypeHintIndex;
     }
 
+    /** TODO: remove this temporary workaround */
+    public function testInjectTypeHintIndex(PhpTypeHintIndex $index)
+    {
+        $this->typeHintIndexer = $index;
+    }
+
     public function check(File $file)
     {
         if (!$file->isPhpExtension()) {

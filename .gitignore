@@ -1,7 +1,8 @@
 /vendor
 /local
+/assets/*
 !/assets/.gitkeep
+!/assets/type-hints.json
 !/assets/libraries/.gitkeep
-/assets
 /composer.lock
 

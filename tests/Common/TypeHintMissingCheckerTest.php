@@ -4,25 +4,54 @@ namespace Tests\SourceAnalyzer\Common;
 
 use SourceAnalyzer\Common\TypeHintMissingChecker;
 use SourceAnalyzer\File;
+use SourceAnalyzer\Helper\PhpTypeHintIndex;
 
 class TypeHintMissingCheckerTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @var TypeHintMissingChecker
+     */
+    private $checker;
+
+    public function setUp()
+    {
+        $indexer = new PhpTypeHintIndex;
+        $indexer->createEmptyIndex();
+        $indexer->addFunctionToIndex(
+            'array_push', 
+            ['array', 'mixed', 'mixed']
+        );
+
+        $indexer->addFunctionToIndex(
+            'date_modify',
+            ['DateTime', 'string']
+        );
+
+        $indexer->addFunctionToIndex(
+            'array_map',
+            ['callable', 'array', 'array']
+        );
+
+        $this->checker = new TypeHintMissingChecker;
+        $this->checker->testInjectTypeHintIndex($indexer);
+    }
+    
+
     /**
      * @dataProvider provideCodeExamples
      */
     public function testCanDetectMissingTypeHints($code, $needsTypeHints)
     {
         $code = '<?php ' . $code;
-        $checker = new TypeHintMissingChecker;
         $phpParser = new \PhpParser\Parser(new \PhpParser\Lexer\Emulative);
 
         $file = new File($code, "/fictional/name.php");    
         $file->setPhpParser($phpParser);
 
-        $checker->check($file);
-        $checker->analyze();
+        $this->checker->check($file);
+        $this->checker->analyze();
 
-        $errors = $checker->getErrors();
+        $errors = $this->checker->getErrors();
 
         if ($needsTypeHints) {
             $this->assertNotEmpty($errors);            
