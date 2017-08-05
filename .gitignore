@@ -1,0 +1,7 @@
+/vendor
+/local
+!/assets/.gitkeep
+!/assets/libraries/.gitkeep
+/assets
+/composer.lock
+

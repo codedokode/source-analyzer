@@ -1,0 +1,25 @@
+{
+    "require" : {
+        "php": ">=5.4",
+        "masterminds/html5": "2.*",
+        "querypath/QueryPath": ">=3.0.0",
+        "fzaninotto/faker": "1.*",
+        "nikic/php-parser": "1.*",
+        "wapmorgan/unified-archive": "~0.0.9",
+        "phpspec/php-diff": "1.*"
+    },
+    "autoload": {
+        "psr-4": { 
+            "SourceAnalyzer\\": "src/"            
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\SourceAnalyzer\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "php": ">=5.6",
+        "phpunit/phpunit": "^5.7"
+    }
+}
